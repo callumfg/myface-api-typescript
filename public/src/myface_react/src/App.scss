@@ -1,0 +1,66 @@
+@import 'posts.scss';
+@import 'user.scss';
+
+body{
+  background-color: #252A38;
+  color: #DCDCDC;
+  font-family: "Segoe UI";
+  
+}
+.banner{
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+h1{
+  
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+  padding-top:10px;
+  padding-bottom: 10px;
+  background-color: #151820;
+  
+  
+  font-weight: 400;
+}
+
+h2{
+  font-family: "Segoe UI";
+  font-weight: 400;
+}
+a{
+  &:link{
+  color: #DCDCDC;
+  text-decoration: none;
+  }
+  &:hover{
+    color: #2985FF;
+  }
+  &:visited{
+    color: #DCDCDC
+  }
+  
+}
+form{
+  width: 90%;
+  text-align: left;
+  margin-left: 20%;
+}
+.submit{
+  display: flex;
+}
+div.green{
+  height:210px;
+  width: 20px;
+  background-color: green;
+  margin-left: 5px;
+  border-radius: 50%
+}
+div.red{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin-left: 5px;
+  border-radius: 50%
+}

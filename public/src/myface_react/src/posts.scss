@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 24px;
+    }
+
+h2{
+    position: relative;
+    font-size: 20px;
+    left: 5%;
+    
+}
+.singlePost{
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    background-color: #151820;
+    margin-bottom: 24px;
+}
+.postInfo{
+    position: relative;
+    
+}
+.postImg{
+    position: relative;
+    width: 100%;
+    display: block;
+    height:auto;
+    
+
+}
+.postUserInfo{
+    position: absolute;
+    top: 2.5%;
+    left:2.5%;
+    display: flex;
+}
+.postProfilePic{
+    border-radius:50%;
+    width: 10%;
+    border: 1px solid #DCDCDC;
+    box-shadow: 2px 2px 2px #2e2b2ee7;
+}
+.postUser{
+    padding-left:2.5%;
+    font-size: x-large;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px #2e2b2ee7;
+}
+.message{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(37, 42,56, 0.589);
+    
+}
+.postMess{
+    padding-left: 2.5%;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.postTime{
+    padding-left:2.5%;
+    font-size: 10px;
+    margin-top: 0;
+    
+    
+}
+.likes{
+    position: relative;
+    font-size: 14px;
+    padding-left: 2.5%;
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;  
+}
+
+}
